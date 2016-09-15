@@ -65,7 +65,13 @@ After gaining access, the account administrator should follow the steps below to
 
 3. Once the email has been entered, make the following API call on the back-end:
 
-    `POST https://api.flexsecure.co/v2/user/authenticate`
+    ```
+    POST https://api.flexsecure.co/v2/user/authenticate
+    {
+      “email”:”<user email>”,
+      “system”:”<system name>”“,
+    }
+    ```
 
     This will start the authentication process.
 
@@ -94,7 +100,13 @@ After gaining access, the account administrator should follow the steps below to
 
 3. Once the email has been entered, make the following API call on the back-end:
 
-    `POST https://api.flexsecure.co/v2/user/authenticate`
+    ```
+    POST https://api.flexsecure.co/v2/user/authenticate
+    {
+      “email”:”<user email>”,
+      “system”:”<system name>”“,
+    }
+    ```
 
     This will start the authentication process.
 

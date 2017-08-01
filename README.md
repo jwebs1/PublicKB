@@ -278,3 +278,9 @@ Links to podcasts should look like this:
   ### Section B
   Text for this area.
   ```
+
+### Brackets
+
+Sometimes the code around a KB page will not display properly if you use these double brackets (some code variables use these): `\{{ }}`.
+
+In order to bypass this, you should precede the double brackets with a single backslash: `\{{`
